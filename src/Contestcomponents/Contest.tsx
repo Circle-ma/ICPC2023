@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Box, Container, Link, Stack, Typography } from "@mui/material";
+import { Box, Button, Container, Link, Stack, Typography } from "@mui/material";
 import CalendarMonthRoundedIcon from "@mui/icons-material/CalendarMonthRounded";
 import {
   CalendarOutlined,
@@ -80,7 +80,6 @@ export default function Contest() {
             }}
             align="center"
             // marginTop={8}
-            paddingBottom={4}
           >
             <EnvironmentTwoTone
               style={{ fontSize: 30 }}
@@ -95,6 +94,18 @@ export default function Contest() {
               Kong
             </Link>
           </Typography>
+          <br />
+          <Box textAlign={"center"} paddingBottom={4}>
+            <Link
+              href="https://icpc.global/regionals/finder/HongKong-City-2022"
+              underline="none"
+              target="_blank"
+            >
+              <Button variant="contained" color="error">
+                Register
+              </Button>
+            </Link>
+          </Box>
         </Container>
       </Bg>
       <CM />
