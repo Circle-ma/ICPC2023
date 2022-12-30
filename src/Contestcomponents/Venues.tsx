@@ -45,6 +45,7 @@ export default function Venues() {
           Engineering Building require 10-15 minutes. Walking routes are shown
           below.
         </Typography>
+        <br />
         <Box textAlign={"center"}>
           <Image src="https://icpc2023.cse.cuhk.edu.hk/icpc2016/img/SHBWalkingRoute.png"></Image>
         </Box>
