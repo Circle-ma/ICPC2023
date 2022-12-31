@@ -17,7 +17,7 @@ export default function BasicTimeline(props: TimeProps) {
   return (
     <Box>
       <Typography
-        variant="h3"
+        variant="h4"
         align="center"
         color="transparent"
         sx={{

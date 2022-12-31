@@ -10,7 +10,7 @@ export default function Venues() {
   return (
     <>
       <Typography
-        variant="h3"
+        variant="h4"
         align="center"
         marginY={5}
         color="transparent"
