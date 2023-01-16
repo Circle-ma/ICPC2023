@@ -5,6 +5,7 @@ import Header from "./Header";
 import Contest from "./Contestcomponents/Contest";
 import Footer from "./Footer";
 import Home from "./Homecomponents/Home";
+import Album from "./Albumcomponents/Album";
 
 // const Bg = styled.div`
 //   background-image: url(/icpc-bg.png);
@@ -35,6 +36,14 @@ const routerConfig = [
       </>
     ),
   },
+  {
+    path: "/Photo",
+    element: (
+      <>
+        <Album />
+      </>
+    ),
+  },
 ];
 
 function App() {
@@ -44,7 +53,6 @@ function App() {
       {/* <Bg> */}
       <ThemeProvider theme={font}>
         <Header />
-
         {element}
         <Footer />
       </ThemeProvider>

@@ -65,6 +65,8 @@ export default function Header() {
       navigate("../");
     } else if (newValue === 1) {
       navigate("../Contest");
+    } else if (newValue === 2) {
+      navigate("../Photo");
     }
   };
 
@@ -134,6 +136,7 @@ export default function Header() {
           >
             <Tab label="Home" sx={{ fontSize: 18 }} />
             <Tab label="Contest Details" sx={{ fontSize: 18 }} />
+            <Tab label="Photo Album" sx={{ fontSize: 18 }} />
           </Tabs>
         </ThemeProvider>
       </Container>
