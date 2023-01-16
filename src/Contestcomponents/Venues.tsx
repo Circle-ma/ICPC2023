@@ -24,16 +24,19 @@ export default function Venues() {
       </Typography>
       <Container>
         <Typography>
-          ● Note: Visitors without a CU Link card are required to register details of their Hong Kong ID cards 
-          (or other identification documents) at the campus entrance in accordance with existing access control measures. 
-          <br/>
-          <br/>
-          ● Registration, Opening ceremony: <Link
+          ● Note: Visitors without a CU Link card are required to register
+          details of their Hong Kong ID cards (or other identification
+          documents) at the campus entrance in accordance with existing access
+          control measures.
+          <br />
+          <br />● Registration, Opening ceremony:{" "}
+          <Link
             href="https://goo.gl/maps/A2eqXT7soZVyrUDQ7"
             underline="hover"
             target="_blank"
-          >T.Y. Wong Hall, 5/F, Ho Sin-Hang
-          Engineering Building</Link>
+          >
+            T.Y. Wong Hall, 5/F, Ho Sin-Hang Engineering Building
+          </Link>
         </Typography>
         <br />
         <Box textAlign={"center"}>
@@ -41,51 +44,65 @@ export default function Venues() {
         </Box>
         <br />
         <Typography>
-          <br />● Practice and Contest: Room 924, 9/F, Ho Sin-Hang
+          <br />● Practice and Contest: Room 924, 9/F, Ho Sin-Hang Engineering
+          Building
+          <br />
+          <br />● Coach observation: T.Y. Wong Hall, 5/F, Ho Sin-Hang
           Engineering Building
           <br />
-          <br />● Coach observation: T.Y. Wong Hall, 5/F, Ho
-          Sin-Hang Engineering Building
-          <br />
-          <br />● Closing and Award Ceremony, Banquet: <Link
+          <br />● Closing and Award Ceremony, Banquet:{" "}
+          <Link
             href="https://goo.gl/maps/eH2XFxLZvoVPzSmR8"
             underline="hover"
             target="_blank"
-          >Ho Sin Hang Hall (1/F Chan Chun Hall Hall), S.H. Ho College</Link>
+          >
+            Ho Sin Hang Hall (1/F Chan Chun Hall Hall), S.H. Ho College
+          </Link>
           <br />
           <br />● Walks to/from the MTR University Station and the Ho Sin-Hang
           Engineering Building require 10-15 minutes. Walking routes are shown
           below.
           <br />
-        <br />
+          <br />
         </Typography>
         <br />
         <Box textAlign={"center"}>
           <Image src="img/walking-routes.png"></Image>
         </Box>
         <Typography>
-          <br />● Canteens closest to the Engineering building would be the&nbsp;
-      <Link
-          href="https://goo.gl/maps/xvuWiVBWTgRhREP89"
-          underline="hover"
-          target="_blank"
-        ><strong>Benjamin Franklin Centre Coffee Corner</strong></Link> and <Link
-        href="https://goo.gl/maps/ykVjn3LeS2tPEcus9"
-        underline="hover"
-        target="_blank"
-      ><strong>Basic Medical Sciences Building Snack Bar</strong></Link>. A full list of restaurants can be found on this link under <em>Restaurants</em>&nbsp; 
-      (mind the business hours!): <Link
-        href="https://www.cuhk.edu.hk/english/campus/accommodation.html"
-        underline="hover"
-        target="_blank"
-      >https://www.cuhk.edu.hk/english/campus/accommodation.html</Link>
-        <br />
+          <br />● Canteens closest to the Engineering building would be
+          the&nbsp;
+          <Link
+            href="https://goo.gl/maps/xvuWiVBWTgRhREP89"
+            underline="hover"
+            target="_blank"
+          >
+            <strong>Benjamin Franklin Centre Coffee Corner</strong>
+          </Link>{" "}
+          and{" "}
+          <Link
+            href="https://goo.gl/maps/ykVjn3LeS2tPEcus9"
+            underline="hover"
+            target="_blank"
+          >
+            <strong>Basic Medical Sciences Building Snack Bar</strong>
+          </Link>
+          . A full list of restaurants can be found on this link under{" "}
+          <em>Restaurants</em>&nbsp; (mind the business hours!):{" "}
+          <Link
+            href="https://www.cuhk.edu.hk/english/campus/accommodation.html"
+            underline="hover"
+            target="_blank"
+          >
+            CUHK Facilities Info
+          </Link>
+          <br />
         </Typography>
         <br />
         <Box textAlign={"center"}>
           <Image src="img/canteens.png"></Image>
         </Box>
-    
+
         <br />
         <Typography>
           ● Detailed campus map can be found&nbsp;
@@ -98,11 +115,7 @@ export default function Venues() {
           </Link>
           .<br />
           <br />● Visitors guide can be found&nbsp;
-          <Link
-            href="map.html"
-            underline="hover"
-            target="_blank"
-          >
+          <Link href="map.html" underline="hover" target="_blank">
             here
           </Link>
           .

@@ -23,15 +23,14 @@ const Rubbish = styled.img`
   position: center center;
 `;
 
-interface HomeProps {
-  setValue: (value: React.SetStateAction<number>) => void;
-}
+// interface HomeProps {
+//   setValue: (value: React.SetStateAction<number>) => void;
+// }
 
-export default function Home(props: HomeProps) {
-  const { setValue } = props;
+export default function Home() {
+  // const { setValue } = props;
   return (
     <>
-
       {/* <Box marginTop={5}> */}
       {/* <BasicTimeline setValue={setValue}></BasicTimeline> */}
       <News></News>

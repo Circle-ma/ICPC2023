@@ -57,7 +57,7 @@ function BasicGrid() {
       </Typography>
       {/* <EmailRoundedIcon></EmailRoundedIcon> */}
       {/* <EmailIcon></EmailIcon> */}
-      <Typography color={"gray"} variant="body1" marginTop={5}>
+      <Typography color={"gray"} variant="body2" marginTop={5}>
         <EmailRoundedIcon></EmailRoundedIcon>
       </Typography>
       <Link href="mailto:icpc2023@cse.cuhk.edu.hk">
@@ -66,11 +66,12 @@ function BasicGrid() {
       {/* <Typography color={"gray"} variant="body1">
             icpc2023@cse.cuhk.edu.hk
           </Typography> */}
-      <Typography color={"gray"} variant="body1" marginTop={5}>
+      <Typography color={"gray"} variant="body2" marginTop={5}>
         <LocationCityRoundedIcon></LocationCityRoundedIcon>
       </Typography>
-      <Typography color={"gray"} variant="body1">
-        Organizer: Department of Computer Science and Engineering, Faculty of Engineering, The Chinese University of Hong Kong
+      <Typography color={"gray"} variant="body2">
+        Organizer: Department of Computer Science and Engineering, Faculty of
+        Engineering, The Chinese University of Hong Kong
       </Typography>
       <Box paddingY={2}></Box>
       <Grid container>
@@ -93,7 +94,7 @@ function BasicGrid() {
       {/* </Grid> */}
       <br />
       <br />
-      <Typography color={"gray"} variant="body1">
+      <Typography color={"gray"} variant="body2">
         Co-host: University of Macau
       </Typography>
       <Box paddingY={2}></Box>
@@ -102,7 +103,7 @@ function BasicGrid() {
           <CUImage src="um-logo.png" style={{ background: "white" }}></CUImage>
         </Grid>
       </Grid>
-      <Typography color={"gray"} variant="body1">
+      <Typography color={"gray"} variant="body2">
         Last updated: 14 January 2023
       </Typography>
     </Box>
