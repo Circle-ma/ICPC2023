@@ -74,9 +74,10 @@ export default function Accommodation() {
           . The closest station is University Station.
           <br />
           <br />● Teams may also choose to seek accommodation in Shenzhen,
-          mainland China, and travel to CUHK on contest days. Please make sure
-          (a) you reserve ample time for immigration and customs procedures and
-          transportation and (2) your visa or entry permit allows multiple
+          mainland China, and travel to CUHK on contest days. Please make sure<br/>
+          (1) you reserve ample time for immigration and customs procedures and
+          transportation and <br/>
+          (2) your visa or entry permit allows multiple
           entries to Hong Kong. For example, some types of entry permits may
           allow only one entry to Hong Kong every seven days.
         </Typography>

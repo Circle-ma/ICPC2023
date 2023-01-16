@@ -68,45 +68,92 @@ function CustomizedTables() {
           </TableRow>
         </TableHead>
         <TableBody>
-          <StyledTableRow key="13:00-14:15">
+          <StyledTableRow key="08:30-08:50">
             <StyledTableCell component="th" scope="row" align="center">
-              13:00-14:15
+              08:30&ndash;08:50<br/>
+              <em><small>*Updated*</small></em>
             </StyledTableCell>
             <StyledTableCell>
-              <strong>Registration</strong>
+              <strong>Opening Speech</strong>
+            </StyledTableCell>
+            <StyledTableCell align="center">
+              T.Y. Wong Hall, 5/F, 
+          <Link
+            href="https://goo.gl/maps/A2eqXT7soZVyrUDQ7"
+            underline="hover"
+            target="_blank"
+          >Ho Sin-Hang Engineering Building, CUHK</Link> <br/>+<br/>
+          <Link
+            href="https://cuhk.zoom.us/j/95766318014?pwd=L0ljempEbHdTbzl3MURweVlJTTVvZz09"
+            underline="hover"
+            target="_blank"
+          >Livestreamed on Zoom Webinar</Link>
+            </StyledTableCell>
+          </StyledTableRow>
+          <StyledTableRow key="08:50-09:10">
+            <StyledTableCell component="th" scope="row" align="center">
+              08:50–09:10<br/>
+              <em><small>*Updated*</small></em>
+            </StyledTableCell>
+            <StyledTableCell>
+              <strong>Registration <br/>(simultaneous for both onsite and online teams)</strong>
               <br />
               ● Verification of contestant details <br />● Contestants have to
-              bring their travel documents and student ID cards <br />●
-              Collection of welcome pack
+              present their student ID cards
             </StyledTableCell>
             <StyledTableCell align="center">
-              LT, 9/F, William M.W. Mong Engineering Building
+              T.Y. Wong Hall, 5/F, Ho Sin-Hang Engineering Building, CUHK
             </StyledTableCell>
           </StyledTableRow>
-          <StyledTableRow key="14:15-14:45">
+          <StyledTableRow key="09:30-11:30">
             <StyledTableCell component="th" scope="row" align="center">
-              14:15-14:45
+              09:30–11:00
             </StyledTableCell>
             <StyledTableCell>
-              <strong>Opening Ceremony</strong>
-              <br />
-              ● RCD welcome speech <br />● Team introduction
-            </StyledTableCell>
-            <StyledTableCell align="center">
-              LT, 9/F, William M.W. Mong Engineering Building
-            </StyledTableCell>
-          </StyledTableRow>
-          <StyledTableRow key="15:30-16:30">
-            <StyledTableCell component="th" scope="row" align="center">
-              15:30-16:30
-            </StyledTableCell>
-            <StyledTableCell>
-              <strong>Practice Session</strong>
+              <strong>Practice Contest<br/>(simultaneous for both onsite and online teams)</strong>
               <br />
               ● Rule Briefing <br />● Practice time
             </StyledTableCell>
             <StyledTableCell align="center">
-              Rm 924, 9/F, Ho Sin-Hang Engineering Building
+              Room 924, 9/F, Ho Sin-Hang Engineering Building, CUHK
+            </StyledTableCell>
+          </StyledTableRow>
+          <StyledTableRow key="12:30-17:30">
+            <StyledTableCell component="th" scope="row" align="center">
+              12:30&ndash;17:30
+            </StyledTableCell>
+            <StyledTableCell>
+              <strong>Programming Contest<br/>(simultaneous for both onsite and online teams)</strong>
+            </StyledTableCell>
+            <StyledTableCell align="center">
+              Room 924, 9/F, Ho Sin-Hang Engineering Building <br/>+<br/>
+          <Link
+            href="https://cuhk.zoom.us/j/95766318014?pwd=L0ljempEbHdTbzl3MURweVlJTTVvZz09"
+            underline="hover"
+            target="_blank"
+          >Livestreamed on Zoom Webinar</Link>
+            </StyledTableCell>
+          </StyledTableRow>
+          <StyledTableRow key="18:30-19:30">
+            <StyledTableCell component="th" scope="row" align="center">
+              18:30&ndash;19:30
+            </StyledTableCell>
+            <StyledTableCell>
+              <strong>Closing Ceremony and Banquet</strong>
+              <br />
+              ● Problem analysis <br />● Award ceremony
+            </StyledTableCell>
+            <StyledTableCell align="center">
+          <Link
+            href="https://goo.gl/maps/eH2XFxLZvoVPzSmR8"
+            underline="hover"
+            target="_blank"
+          >Ho Sin Hang Hall, S.H. Ho College</Link>, CUHK <br/>+<br/>
+          <Link
+            href="https://cuhk.zoom.us/j/95766318014?pwd=L0ljempEbHdTbzl3MURweVlJTTVvZz09"
+            underline="hover"
+            target="_blank"
+          >Livestreamed on Zoom Webinar</Link>
             </StyledTableCell>
           </StyledTableRow>
         </TableBody>

@@ -24,31 +24,68 @@ export default function Venues() {
       </Typography>
       <Container>
         <Typography>
-          ● Registration, Opening ceremony: LT, 9/F, William M.W. Mong
-          Engineering Building
-          <br />
-          <br />● Practice session, Contest: Rm 924, 9/F, Ho Sin-Hang
-          Engineering Building
-          <br />
-          <br />● Coach observation, Sharing session: T.Y. Wong Hall, 5/F, Ho
-          Sin-Hang Engineering Building
-          <br />
-          <br />● Banquet, Award ceremony: Ho Sin Hang Hall, S.H. Ho College
+          ● Note: Visitors without a CU Link card are required to register details of their Hong Kong ID cards 
+          (or other identification documents) at the campus entrance in accordance with existing access control measures. 
+          <br/>
+          <br/>
+          ● Registration, Opening ceremony: <Link
+            href="https://goo.gl/maps/A2eqXT7soZVyrUDQ7"
+            underline="hover"
+            target="_blank"
+          >T.Y. Wong Hall, 5/F, Ho Sin-Hang
+          Engineering Building</Link>
         </Typography>
         <br />
         <Box textAlign={"center"}>
-          <Image src="https://icpc2023.cse.cuhk.edu.hk/icpc2016/img/SHBERB.png"></Image>
+          <Image src="img/SHBERB.png"></Image>
         </Box>
         <br />
         <Typography>
-          ● Walks to/from the MTR University Station and the Ho Sin-Hang
+          <br />● Practice and Contest: Room 924, 9/F, Ho Sin-Hang
+          Engineering Building
+          <br />
+          <br />● Coach observation: T.Y. Wong Hall, 5/F, Ho
+          Sin-Hang Engineering Building
+          <br />
+          <br />● Closing and Award Ceremony, Banquet: <Link
+            href="https://goo.gl/maps/eH2XFxLZvoVPzSmR8"
+            underline="hover"
+            target="_blank"
+          >Ho Sin Hang Hall (1/F Chan Chun Hall Hall), S.H. Ho College</Link>
+          <br />
+          <br />● Walks to/from the MTR University Station and the Ho Sin-Hang
           Engineering Building require 10-15 minutes. Walking routes are shown
           below.
+          <br />
+        <br />
         </Typography>
         <br />
         <Box textAlign={"center"}>
-          <Image src="https://icpc2023.cse.cuhk.edu.hk/icpc2016/img/SHBWalkingRoute.png"></Image>
+          <Image src="img/walking-routes.png"></Image>
         </Box>
+        <Typography>
+          <br />● Canteens closest to the Engineering building would be the&nbsp;
+      <Link
+          href="https://goo.gl/maps/xvuWiVBWTgRhREP89"
+          underline="hover"
+          target="_blank"
+        ><strong>Benjamin Franklin Centre Coffee Corner</strong></Link> and <Link
+        href="https://goo.gl/maps/ykVjn3LeS2tPEcus9"
+        underline="hover"
+        target="_blank"
+      ><strong>Basic Medical Sciences Building Snack Bar</strong></Link>. A full list of restaurants can be found on this link under <em>Restaurants</em>&nbsp; 
+      (mind the business hours!): <Link
+        href="https://www.cuhk.edu.hk/english/campus/accommodation.html"
+        underline="hover"
+        target="_blank"
+      >https://www.cuhk.edu.hk/english/campus/accommodation.html</Link>
+        <br />
+        </Typography>
+        <br />
+        <Box textAlign={"center"}>
+          <Image src="img/canteens.png"></Image>
+        </Box>
+    
         <br />
         <Typography>
           ● Detailed campus map can be found&nbsp;
@@ -60,9 +97,9 @@ export default function Venues() {
             here
           </Link>
           .<br />
-          <br />● Visitors guide can be found &nbsp;
+          <br />● Visitors guide can be found&nbsp;
           <Link
-            href="https://icpc2023.cse.cuhk.edu.hk/icpc2016/map.html"
+            href="map.html"
             underline="hover"
             target="_blank"
           >

@@ -31,43 +31,7 @@ export default function Home(props: HomeProps) {
   const { setValue } = props;
   return (
     <>
-      <Bg>
-        <Container>
-          {/* <Box textAlign={"center"}> */}
-          {/* <Image src="icpc-logo-full.png"></Image> */}
-          {/* <Typography
-              variant="h5"
-              color="transparent"
-              sx={{
-                backgroundImage:
-                  "linear-gradient(90deg,#d5da98,#ed782a ,#ebb73d ,#cc4621)",
-                WebkitBackgroundClip: "text",
-              }}
-              // fontWeight="bold"
-              align="center"
-              marginTop={4}
-            >
-              2023 ICPC Asia Hong Kong Regional
-            </Typography> */}
-          <Rubbish src="icpc2023.svg"></Rubbish>
-          <Typography
-            variant="h6"
-            color="transparent"
-            sx={{
-              backgroundImage:
-                "linear-gradient(45deg,#0008ff -5%,#ff00ff 105%);",
-              WebkitBackgroundClip: "text",
-            }}
-            align="center"
-            // marginTop={8}
-            paddingBottom={4}
-          >
-            <CalendarTwoTone style={{ fontSize: 30 }} twoToneColor="#5810ff" />
-            Contest Date: 14 January 2023 (Saturday)
-          </Typography>
-          {/* </Box> */}
-        </Container>
-      </Bg>
+
       {/* <Box marginTop={5}> */}
       {/* <BasicTimeline setValue={setValue}></BasicTimeline> */}
       <News></News>

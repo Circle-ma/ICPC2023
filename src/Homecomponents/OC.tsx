@@ -157,6 +157,32 @@ function ColumnsGrid() {
                 marginTop={4}
                 align="center"
               >
+                Judges
+              </Typography>
+            </Grid>
+            <Grid xs={12} sm={6}>
+              <Typography fontSize={15} marginTop={4} align="center">
+                Bohao Peng
+              </Typography>
+              <Typography fontSize={15} align="center">
+                Ching Lam O
+              </Typography>
+              <Typography fontSize={15} align="center">
+                King Kai Chan
+              </Typography>
+            </Grid>
+          </Grid>
+        </Grid>
+        <Grid xs={12} sm={6}>
+          <Grid container>
+            <Grid xs={12} sm={6}>
+              <Typography
+                fontSize={18}
+                fontWeight="bold"
+                // fontStyle="oblique"
+                marginTop={4}
+                align="center"
+              >
                 Webmasters
               </Typography>
             </Grid>

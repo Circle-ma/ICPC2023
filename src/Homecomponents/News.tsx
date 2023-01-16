@@ -17,6 +17,32 @@ const Root = styled("div")(({ theme }) => ({
 function DividerText() {
   const content = (
     <>
+    <Typography align="center">
+      14 January 2023: The contest is starting! Check out the&nbsp;
+      <Link
+          href="https://cuhk.zoom.us/j/95766318014?pwd=L0ljempEbHdTbzl3MURweVlJTTVvZz09"
+          underline="hover"
+          target="_blank"
+        >Zoom webinar</Link> for a livestream.
+    </Typography>
+    <Typography align="center">
+      6 January 2023: For the online contest, 
+        <Link
+          href="icpc-to-contestant.pdf"
+          underline="hover"
+          target="_blank"
+        >guidelines for contestants {" "}
+        </Link> and {" "}
+        <Link
+          href="icpc-to-coach.pdf"
+          underline="hover"
+          target="_blank"
+        >guidelines for coaches
+        </Link> are now available.
+    </Typography>
+    <Typography align="center">
+      3 January 2023: Contest details are available. Choose "Contest Details" in the top menu.
+    </Typography>
       <Typography align="center">
         23 December 2022: Reminder &mdash; Registration and payment deadline is{" "}
         <strong>29 December 2022</strong> (Thursday).

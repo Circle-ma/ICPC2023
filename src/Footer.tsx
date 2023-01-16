@@ -70,8 +70,7 @@ function BasicGrid() {
         <LocationCityRoundedIcon></LocationCityRoundedIcon>
       </Typography>
       <Typography color={"gray"} variant="body1">
-        Department of Computer Science and Engineering, Ho Sin-Hang Engineering
-        Building, The Chinese University of Hong Kong, Shatin, Hong Kong
+        Organizer: Department of Computer Science and Engineering, Faculty of Engineering, The Chinese University of Hong Kong
       </Typography>
       <Box paddingY={2}></Box>
       <Grid container>
@@ -83,6 +82,11 @@ function BasicGrid() {
           <Bg>
             <CUImage src="cselogo.png"></CUImage>
           </Bg>
+        </Grid>
+      </Grid>
+      <Grid container>
+        <Grid xs={12} sm={6}>
+          <CUImage src="cuhk-erg.png"></CUImage>
         </Grid>
       </Grid>
       {/* </Grid> */}
@@ -99,7 +103,7 @@ function BasicGrid() {
         </Grid>
       </Grid>
       <Typography color={"gray"} variant="body1">
-        Last updated: 23 December 2022
+        Last updated: 14 January 2023
       </Typography>
     </Box>
   );

@@ -28,7 +28,7 @@ export default function Info() {
           WebkitBackgroundClip: "text",
         }}
       >
-        Contest Info
+        Onsite Contest Info
       </Typography>
       <Container>
         <Typography>
@@ -47,7 +47,10 @@ export default function Info() {
           &emsp;&emsp;&emsp;&emsp;■ vi/vim
           <br />
           <br />
-          &emsp;&emsp;&emsp;&emsp;■ Emacs
+          &emsp;&emsp;&emsp;&emsp;■ gvim
+          <br />
+          <br />
+          &emsp;&emsp;&emsp;&emsp;■ emacs
           <br />
           <br />
           &emsp;&emsp;&emsp;&emsp;■ gedit
@@ -56,43 +59,72 @@ export default function Info() {
           &emsp;&emsp;&emsp;&emsp;■ geany
           <br />
           <br />
+          &emsp;&emsp;&emsp;&emsp;■ kate
+          <br />
+          <br />
           &emsp;&emsp;○ Languages:
           <br />
           <br />
-          &emsp;&emsp;&emsp;&emsp;■ GCC 5.4
+          &emsp;&emsp;&emsp;&emsp;■ <strong>Java</strong>   (Openjdk version 17.0.5  2022-10-18)
           <br />
           <br />
-          &emsp;&emsp;&emsp;&emsp;■ G++ 5.4
+          &emsp;&emsp;&emsp;&emsp;■ <strong>C</strong>   (gcc 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04))
           <br />
           <br />
-          &emsp;&emsp;&emsp;&emsp;■ OpenJDK 1.8
+          &emsp;&emsp;&emsp;&emsp;■ <strong>C++</strong>  (g++ 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04))
+          <br />
+          <br />
+          &emsp;&emsp;&emsp;&emsp;■ <strong>Python 3</strong>   (PyPy 7.3.10 with GCC 9.4.0 providing python 3.9.15)   A list of the installed Python modules is available {" "}
+        <Link
+          href="https://image.icpc.global/icpc2023/pypy3.modules.txt"
+          underline="hover"
+          target="_blank"
+        >here</Link>.
+          <br />
+          <br />
+          &emsp;&emsp;&emsp;&emsp;■ <strong>Kotlin</strong>  (Version 1.7.21)
+          <br />
+          <br />
+          &emsp;&emsp;&emsp;&emsp;■ Note that Python 2 is no longer supported.
           <br />
           <br />
           &emsp;&emsp;○ IDEs:
           <br />
           <br />
-          &emsp;&emsp;&emsp;&emsp;■ Eclipse 3.8
+          &emsp;&emsp;&emsp;&emsp;■ Eclipse (version 2022-12)
           <br />
           <br />
-          &emsp;&emsp;&emsp;&emsp;■ Eclipse CDT 8.6
-          <br />
-          <br />● Compilation flags (on Kattis):
+          &emsp;&emsp;&emsp;&emsp;■ IntelliJ (IDEA Community Edition, version 2022.3)
           <br />
           <br />
-          &emsp;&emsp;○ C: gcc -g -O2 -std=gnu99 -static {"{"}files{"}"} -lm
+          &emsp;&emsp;&emsp;&emsp;■ CLion (version 2022.3)
           <br />
           <br />
-          &emsp;&emsp;○ C++: g++ -g -O2 -static -std=gnu++11 {"{"}files{"}"}
+          &emsp;&emsp;&emsp;&emsp;■ Pycharm Community Edition Python IDE (version 2022.3)
           <br />
           <br />
-          &emsp;&emsp;○ Java: javac -encoding UTF-8 -sourcepath . -d . {"{"}
-          files{"}"}
+          &emsp;&emsp;&emsp;&emsp;■ Code::Blocks (version 20.03-3.1)
           <br />
           <br />
-          &emsp;&emsp;&nbsp;&nbsp;Java runtime: java -XX:+UseSerialGC -Xss64m
-          -Xms
-          {"{"}memlim{"}"}m -Xmx{"{"}memlim{"}"}
-          m
+          &emsp;&emsp;&emsp;&emsp;■ VS Code(version 1.74.2)
+          <br />
+          <br />
+          <br />● Compilation flags:
+          <br />
+          <br />
+          &emsp;&emsp;○ C: gcc -x c -g -O2 -std=gnu11 -static ${"{"}files{"}"} -lm
+          <br />
+          <br />
+          &emsp;&emsp;○ C++: g++ -x c++ -g -O2 -std=gnu++20 -static ${"{"}files{"}"}
+          <br />
+          <br />
+          &emsp;&emsp;○ Java: javac -encoding UTF-8 -sourcepath . -d . ${"{"}files{"}"}
+          <br />
+          <br />
+          &emsp;&emsp;○ Python 3: pypy3 -m py_compile ${"{"}files{"}"}
+          <br />
+          <br />
+          &emsp;&emsp;○ Kotlin: kotlinc -d . ${"{"}files{"}"}
           <br />
           <br />● Reference materials installed on team machines:
           <br />
@@ -103,6 +135,7 @@ export default function Info() {
           &emsp;&emsp;○ C++ STL Doc
           <br />
           <br />
+          {/*
           ● Each contestant may bring a printed copy of your Team Reference
           Document. This document may contain up to 25 pages of reference
           materials, single-sided, letter or A4 size, with pages numbered in the
@@ -115,13 +148,15 @@ export default function Info() {
           <br />● Each team member may bring an unannotated natural language
           printed dictionary.
           <br />
+      */}
           <br />● Judging System:
-          <Link href="http://www.kattis.com/" underline="hover" target="_blank">
-            Kattis
+          <Link href="https://www.domjudge.org" underline="hover" target="_blank">
+            DOMjudge
           </Link>
-          , the official judging system of the ACM-ICPC World Finals, will be
+          , the official judging system of the ICPC World Finals, will be
           used.
           <br />
+          {/*
           <br />● Contest T-shirt: Each registered participant will be given a
           contest T-shirt. Contestants have to wear the T-shirt during the
           contest. The following table shows the T-shirt size details.
@@ -173,6 +208,7 @@ export default function Info() {
             <Image src="https://icpc2023.cse.cuhk.edu.hk/icpc2016/img/t-shirt.png"></Image>
           </Box>
           <br />
+      */}
         </Typography>
       </Container>
       <Box marginY={5}></Box>
