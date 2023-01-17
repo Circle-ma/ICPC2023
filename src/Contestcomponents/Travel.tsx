@@ -30,11 +30,13 @@ export default function Travel() {
           including almost 50 in mainland China.
           <br />
           <br />● The contest venue, The Chinese University of Hong Kong (CUHK),
-          is also close to two Hong Kong-mainland China border checkpoints: <s>the
-          Lo Wu Control Point (Luohu Port)</s> <em>[currently closed]</em> and the Lok Ma Chau Spur Line Control
-          Point (Futian Port). The two control points are connected to <s>Lo Wu
-          Station</s> <em>[currently closed]</em> and Lok Ma Chau Station of Hong Kong’s MTR network
-          respectively. Train journey time from <s>Lo Wu Station</s> <em>[currently closed]</em> or Lok Ma Chau
+          is also close to two Hong Kong-mainland China border checkpoints:{" "}
+          <s>the Lo Wu Control Point (Luohu Port)</s>{" "}
+          <em>[currently closed]</em> and the Lok Ma Chau Spur Line Control
+          Point (Futian Port). The two control points are connected to{" "}
+          <s>Lo Wu Station</s> <em>[currently closed]</em> and Lok Ma Chau
+          Station of Hong Kong’s MTR network respectively. Train journey time
+          from <s>Lo Wu Station</s> <em>[currently closed]</em> or Lok Ma Chau
           Station to University Station (the closest MTR station of CUHK) is
           about 24-29 minutes.
           <br />

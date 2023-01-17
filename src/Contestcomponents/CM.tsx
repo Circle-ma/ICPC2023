@@ -18,47 +18,34 @@ export default function CM() {
       </Typography>
       <Container>
         <Typography>
-          ● <Link
-          href="opening.pdf"
-          underline="hover"
-          target="_blank"
-        >Opening Ceremony slides
-        </Link>
-          <br/>
-          <br/>
-          ● <Link
-          href="practice-contest.zip"
-          underline="hover"
-          target="_blank"
-        >Practice contest materials
-        </Link> (password: <code>%osc4r@onc3#more</code> )
-          <br/>
-          <br/>
-          ● <Link
-          href="official-session.zip"
-          underline="hover"
-          target="_blank"
-        >Official contest materials
-        </Link> (password: <code>W31come$to^HoNg&KonG</code> )
-          <br/>
-          <br/>
-          ● <Link
-          href="icpc-to-contestant.pdf"
-          underline="hover"
-          target="_blank"
-        >Guidelines for contestants
-        </Link>
-          <br/>
-          <br/>
-          ● <Link
-          href="icpc-to-coach.pdf"
-          underline="hover"
-          target="_blank"
-        >Guidelines for coaches
-        </Link> 
-          <br/>
-          <br/>
-          ● Contest scoreboard: 
+          ●{" "}
+          <Link href="opening.pdf" underline="hover" target="_blank">
+            Opening Ceremony slides
+          </Link>
+          <br />
+          <br />●{" "}
+          <Link href="practice-contest.zip" underline="hover" target="_blank">
+            Practice contest materials
+          </Link>{" "}
+          (password: <code>%osc4r@onc3#more</code> )
+          <br />
+          <br />●{" "}
+          <Link href="official-session.zip" underline="hover" target="_blank">
+            Official contest materials
+          </Link>{" "}
+          (password: <code>W31come$to^HoNg&KonG</code> )
+          <br />
+          <br />●{" "}
+          <Link href="icpc-to-contestant.pdf" underline="hover" target="_blank">
+            Guidelines for contestants
+          </Link>
+          <br />
+          <br />●{" "}
+          <Link href="icpc-to-coach.pdf" underline="hover" target="_blank">
+            Guidelines for coaches
+          </Link>
+          <br />
+          <br />● Contest scoreboard:
           <Link
             href="https://icpchk2023.cse.cuhk.edu.hk/domjudge/public"
             underline="hover"

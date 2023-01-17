@@ -65,24 +65,32 @@ export default function Info() {
           &emsp;&emsp;○ Languages:
           <br />
           <br />
-          &emsp;&emsp;&emsp;&emsp;■ <strong>Java</strong>   (Openjdk version 17.0.5  2022-10-18)
+          &emsp;&emsp;&emsp;&emsp;■ <strong>Java</strong> (Openjdk version
+          17.0.5 2022-10-18)
           <br />
           <br />
-          &emsp;&emsp;&emsp;&emsp;■ <strong>C</strong>   (gcc 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04))
+          &emsp;&emsp;&emsp;&emsp;■ <strong>C</strong> (gcc 11.3.0 (Ubuntu
+          11.3.0-1ubuntu1~22.04))
           <br />
           <br />
-          &emsp;&emsp;&emsp;&emsp;■ <strong>C++</strong>  (g++ 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04))
+          &emsp;&emsp;&emsp;&emsp;■ <strong>C++</strong> (g++ 11.3.0 (Ubuntu
+          11.3.0-1ubuntu1~22.04))
           <br />
           <br />
-          &emsp;&emsp;&emsp;&emsp;■ <strong>Python 3</strong>   (PyPy 7.3.10 with GCC 9.4.0 providing python 3.9.15)   A list of the installed Python modules is available {" "}
-        <Link
-          href="https://image.icpc.global/icpc2023/pypy3.modules.txt"
-          underline="hover"
-          target="_blank"
-        >here</Link>.
+          &emsp;&emsp;&emsp;&emsp;■ <strong>Python 3</strong> (PyPy 7.3.10 with
+          GCC 9.4.0 providing python 3.9.15) A list of the installed Python
+          modules is available{" "}
+          <Link
+            href="https://image.icpc.global/icpc2023/pypy3.modules.txt"
+            underline="hover"
+            target="_blank"
+          >
+            here
+          </Link>
+          .
           <br />
           <br />
-          &emsp;&emsp;&emsp;&emsp;■ <strong>Kotlin</strong>  (Version 1.7.21)
+          &emsp;&emsp;&emsp;&emsp;■ <strong>Kotlin</strong> (Version 1.7.21)
           <br />
           <br />
           &emsp;&emsp;&emsp;&emsp;■ Note that Python 2 is no longer supported.
@@ -94,13 +102,15 @@ export default function Info() {
           &emsp;&emsp;&emsp;&emsp;■ Eclipse (version 2022-12)
           <br />
           <br />
-          &emsp;&emsp;&emsp;&emsp;■ IntelliJ (IDEA Community Edition, version 2022.3)
+          &emsp;&emsp;&emsp;&emsp;■ IntelliJ (IDEA Community Edition, version
+          2022.3)
           <br />
           <br />
           &emsp;&emsp;&emsp;&emsp;■ CLion (version 2022.3)
           <br />
           <br />
-          &emsp;&emsp;&emsp;&emsp;■ Pycharm Community Edition Python IDE (version 2022.3)
+          &emsp;&emsp;&emsp;&emsp;■ Pycharm Community Edition Python IDE
+          (version 2022.3)
           <br />
           <br />
           &emsp;&emsp;&emsp;&emsp;■ Code::Blocks (version 20.03-3.1)
@@ -112,13 +122,16 @@ export default function Info() {
           <br />● Compilation flags:
           <br />
           <br />
-          &emsp;&emsp;○ C: gcc -x c -g -O2 -std=gnu11 -static ${"{"}files{"}"} -lm
+          &emsp;&emsp;○ C: gcc -x c -g -O2 -std=gnu11 -static ${"{"}files{"}"}{" "}
+          -lm
           <br />
           <br />
-          &emsp;&emsp;○ C++: g++ -x c++ -g -O2 -std=gnu++20 -static ${"{"}files{"}"}
+          &emsp;&emsp;○ C++: g++ -x c++ -g -O2 -std=gnu++20 -static ${"{"}files
+          {"}"}
           <br />
           <br />
-          &emsp;&emsp;○ Java: javac -encoding UTF-8 -sourcepath . -d . ${"{"}files{"}"}
+          &emsp;&emsp;○ Java: javac -encoding UTF-8 -sourcepath . -d . ${"{"}
+          files{"}"}
           <br />
           <br />
           &emsp;&emsp;○ Python 3: pypy3 -m py_compile ${"{"}files{"}"}
@@ -150,11 +163,14 @@ export default function Info() {
           <br />
       */}
           <br />● Judging System:
-          <Link href="https://www.domjudge.org" underline="hover" target="_blank">
+          <Link
+            href="https://www.domjudge.org"
+            underline="hover"
+            target="_blank"
+          >
             DOMjudge
           </Link>
-          , the official judging system of the ICPC World Finals, will be
-          used.
+          , the official judging system of the ICPC World Finals, will be used.
           <br />
           {/*
           <br />● Contest T-shirt: Each registered participant will be given a

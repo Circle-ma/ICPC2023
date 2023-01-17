@@ -70,33 +70,47 @@ function CustomizedTables() {
         <TableBody>
           <StyledTableRow key="08:30-08:50">
             <StyledTableCell component="th" scope="row" align="center">
-              08:30&ndash;08:50<br/>
-              <em><small>*Updated*</small></em>
+              08:30&ndash;08:50
+              <br />
+              <em>
+                <small>*Updated*</small>
+              </em>
             </StyledTableCell>
             <StyledTableCell>
               <strong>Opening Speech</strong>
             </StyledTableCell>
             <StyledTableCell align="center">
-              T.Y. Wong Hall, 5/F, 
-          <Link
-            href="https://goo.gl/maps/A2eqXT7soZVyrUDQ7"
-            underline="hover"
-            target="_blank"
-          >Ho Sin-Hang Engineering Building, CUHK</Link> <br/>+<br/>
-          <Link
-            href="https://cuhk.zoom.us/j/95766318014?pwd=L0ljempEbHdTbzl3MURweVlJTTVvZz09"
-            underline="hover"
-            target="_blank"
-          >Livestreamed on Zoom Webinar</Link>
+              T.Y. Wong Hall, 5/F,
+              <Link
+                href="https://goo.gl/maps/A2eqXT7soZVyrUDQ7"
+                underline="hover"
+                target="_blank"
+              >
+                Ho Sin-Hang Engineering Building, CUHK
+              </Link>{" "}
+              <br />+<br />
+              <Link
+                href="https://cuhk.zoom.us/j/95766318014?pwd=L0ljempEbHdTbzl3MURweVlJTTVvZz09"
+                underline="hover"
+                target="_blank"
+              >
+                Livestreamed on Zoom Webinar
+              </Link>
             </StyledTableCell>
           </StyledTableRow>
           <StyledTableRow key="08:50-09:10">
             <StyledTableCell component="th" scope="row" align="center">
-              08:50–09:10<br/>
-              <em><small>*Updated*</small></em>
+              08:50–09:10
+              <br />
+              <em>
+                <small>*Updated*</small>
+              </em>
             </StyledTableCell>
             <StyledTableCell>
-              <strong>Registration <br/>(simultaneous for both onsite and online teams)</strong>
+              <strong>
+                Registration <br />
+                (simultaneous for both onsite and online teams)
+              </strong>
               <br />
               ● Verification of contestant details <br />● Contestants have to
               present their student ID cards
@@ -110,7 +124,11 @@ function CustomizedTables() {
               09:30–11:00
             </StyledTableCell>
             <StyledTableCell>
-              <strong>Practice Contest<br/>(simultaneous for both onsite and online teams)</strong>
+              <strong>
+                Practice Contest
+                <br />
+                (simultaneous for both onsite and online teams)
+              </strong>
               <br />
               ● Rule Briefing <br />● Practice time
             </StyledTableCell>
@@ -123,15 +141,21 @@ function CustomizedTables() {
               12:30&ndash;17:30
             </StyledTableCell>
             <StyledTableCell>
-              <strong>Programming Contest<br/>(simultaneous for both onsite and online teams)</strong>
+              <strong>
+                Programming Contest
+                <br />
+                (simultaneous for both onsite and online teams)
+              </strong>
             </StyledTableCell>
             <StyledTableCell align="center">
-              Room 924, 9/F, Ho Sin-Hang Engineering Building <br/>+<br/>
-          <Link
-            href="https://cuhk.zoom.us/j/95766318014?pwd=L0ljempEbHdTbzl3MURweVlJTTVvZz09"
-            underline="hover"
-            target="_blank"
-          >Livestreamed on Zoom Webinar</Link>
+              Room 924, 9/F, Ho Sin-Hang Engineering Building <br />+<br />
+              <Link
+                href="https://cuhk.zoom.us/j/95766318014?pwd=L0ljempEbHdTbzl3MURweVlJTTVvZz09"
+                underline="hover"
+                target="_blank"
+              >
+                Livestreamed on Zoom Webinar
+              </Link>
             </StyledTableCell>
           </StyledTableRow>
           <StyledTableRow key="18:30-19:30">
@@ -144,16 +168,21 @@ function CustomizedTables() {
               ● Problem analysis <br />● Award ceremony
             </StyledTableCell>
             <StyledTableCell align="center">
-          <Link
-            href="https://goo.gl/maps/eH2XFxLZvoVPzSmR8"
-            underline="hover"
-            target="_blank"
-          >Ho Sin Hang Hall, S.H. Ho College</Link>, CUHK <br/>+<br/>
-          <Link
-            href="https://cuhk.zoom.us/j/95766318014?pwd=L0ljempEbHdTbzl3MURweVlJTTVvZz09"
-            underline="hover"
-            target="_blank"
-          >Livestreamed on Zoom Webinar</Link>
+              <Link
+                href="https://goo.gl/maps/eH2XFxLZvoVPzSmR8"
+                underline="hover"
+                target="_blank"
+              >
+                Ho Sin Hang Hall, S.H. Ho College
+              </Link>
+              , CUHK <br />+<br />
+              <Link
+                href="https://cuhk.zoom.us/j/95766318014?pwd=L0ljempEbHdTbzl3MURweVlJTTVvZz09"
+                underline="hover"
+                target="_blank"
+              >
+                Livestreamed on Zoom Webinar
+              </Link>
             </StyledTableCell>
           </StyledTableRow>
         </TableBody>

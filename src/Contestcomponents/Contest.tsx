@@ -34,7 +34,6 @@ const Rubbish = styled.img`
 export default function Contest() {
   return (
     <>
-
       <CM />
       <Schedule />
       <Venues />
