@@ -10,7 +10,8 @@ import { Container, createTheme, ThemeProvider } from "@mui/material";
 import Home from "./Homecomponents/Home";
 import Contest from "./Contestcomponents/Contest";
 import { CalendarTwoTone, EnvironmentTwoTone } from "@ant-design/icons";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 const Bg = styled.div`
   background-image: url(wave.svg);
@@ -57,6 +58,17 @@ const theme = createTheme({
 
 export default function Header() {
   const [value, setValue] = React.useState(0);
+  let location = useLocation();
+  console.log(location.pathname);
+
+  useEffect(() => {
+    if (location.pathname === "/Contest") {
+      setValue(1);
+    } else if (location.pathname === "/Photo") {
+      setValue(2);
+    }
+  }, []);
+
   const navigate = useNavigate();
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
