@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Container } from "@mui/material";
+import { Box, Container } from "@mui/material";
 
 export const Image = styled.img`
   width: 100%;
@@ -17,9 +17,11 @@ export default function PhotoGallery() {
   }
   return (
     <Container>
-      {urlList.map((url) => {
-        return <Image src={url}></Image>;
-      })}
+      <Box textAlign={"center"}>
+        {urlList.map((url) => {
+          return <Image src={url}></Image>;
+        })}
+      </Box>
     </Container>
   );
 }
