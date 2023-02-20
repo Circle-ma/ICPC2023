@@ -1,10 +1,12 @@
 import styled from "@emotion/styled";
 import { Box, Container } from "@mui/material";
+import { Image } from "antd";
+import Topic from "../common";
 
-export const Image = styled.img`
-  width: 100%;
-  max-width: 1000px;
-`;
+// export const Image = styled.img`
+//   width: 100%;
+//   max-width: 1000px;
+// `;
 
 export default function PhotoGallery() {
   function getImageUrl(name: string) {
@@ -16,12 +18,20 @@ export default function PhotoGallery() {
     urlList.push(getImageUrl(i.toString()));
   }
   return (
-    <Container>
+    <>
+      <Topic Content="Photos" />
+      {/* <Container> */}
       <Box textAlign={"center"}>
-        {urlList.map((url) => {
-          return <Image src={url}></Image>;
-        })}
+        {/* you can group the photos by create a new Image.PreviewGroup and
+          urlList */}
+        <Image.PreviewGroup>
+          {urlList.map((url) => {
+            return <Image width={400} src={url}></Image>;
+          })}
+        </Image.PreviewGroup>
       </Box>
-    </Container>
+      {/* </Container> */}
+      <Box marginY={5}></Box>
+    </>
   );
 }
